@@ -92,7 +92,7 @@ X = control.series(PI,syshipo)
 hipo_PI = control.feedback(X,1,sign=-1)
 
 
-PI = controlador(100,4216882.30098903)
+PI = controlador(100,25204.8443959217)
 X = control.series(PI,syshiper)
 hiper_PI = control.feedback(X,1,sign=-1)
 
